@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aura &amp; Thread · Abayas, Hijaabs, Sleeves &amp; Socks</title>
+<meta name="description" content="Aura & Thread: an online modest-fashion boutique for abayas, hijaabs, sleeves and socks. Modest elegance, threaded with intention.">
+<meta name="theme-color" content="#F8F3EC">
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- Preloader -->
+<div class="preloader" aria-hidden="true"><img src="images/logo.png" alt=""></div>
+
+<!-- Custom cursor (mouse users only) -->
+<div class="cursor" aria-hidden="true"><span>View</span></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+
+<!-- Navigation -->
+<header class="nav" id="nav">
+  <div class="wrap nav__inner">
+    <a href="#top" class="brand" aria-label="Aura & Thread, home"><img src="images/logo.png" alt="Aura & Thread logo"></a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <nav class="nav__menu" id="menu" aria-label="Primary">
+      <ul class="nav__links">
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#how">How to Order</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow reveal-hero" style="--d:.2s">Modest fashion · Online boutique</p>
+        <h1 class="display reveal-hero" style="--d:.35s">Wear your <em>aura.</em><br>Stitch your story.</h1>
+        <p class="lead reveal-hero" style="--d:.5s">Abayas that drape like poetry, hijaabs in the softest chiffon, and the everyday essentials, sleeves and socks, that finish the look.</p>
+        <div class="hero__cta reveal-hero" style="--d:.65s">
+          <a class="btn btn--dark magnetic" href="#collection">Explore the collection</a>
+          <a class="btn btn--line magnetic" href="#contact">Get in touch</a>
+        </div>
+        <ul class="hero__meta reveal-hero" style="--d:.8s">
+          <li>Abayas</li><li>Hijaabs</li><li>Sleeves</li><li>Socks</li>
+        </ul>
+      </div>
+
+      <div class="hero__visual">
+        <svg class="thread" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+          <path id="thread" d="M80 20 C 40 220, 300 240, 260 420 S 40 620, 300 780"/>
+        </svg>
+        <figure class="arch">
+          <img src="images/abaya-olive.webp" alt="Model wearing an olive open abaya with a sage chiffon shawl" fetchpriority="high">
+        </figure>
+        <figure class="float float--1">
+          <img src="images/hijaab-chiffon.webp" alt="Chiffon hijaabs in soft neutral shades">
+          <figcaption>Chiffon hijaabs</figcaption>
+        </figure>
+        <figure class="float float--2">
+          <img src="images/socks-sama-pair.webp" alt="Blush ankle socks">
+          <figcaption>Sheer socks</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Marquee -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <div class="marquee__group">
+        <span>Abayas</span><i>✦</i><span>Hijaabs</span><i>✦</i><span>Sleeves</span><i>✦</i><span>Socks</span><i>✦</i><span>Modest. Refined. Yours.</span><i>✦</i>
+      </div>
+      <div class="marquee__group">
+        <span>Abayas</span><i>✦</i><span>Hijaabs</span><i>✦</i><span>Sleeves</span><i>✦</i><span>Socks</span><i>✦</i><span>Modest. Refined. Yours.</span><i>✦</i>
+      </div>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <section class="categories" aria-labelledby="cat-title">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <div>
+          <p class="eyebrow">Shop by category</p>
+          <h2 class="display section-title" id="cat-title">Four ways to <em>complete</em> you.</h2>
+        </div>
+        <p class="muted">From a flowing abaya to the smallest detail, every category is curated for comfort and quiet confidence.</p>
+      </div>
+
+      <div class="cat-grid" data-stagger>
+        <a class="cat" href="#collection" data-go-filter="abayas">
+          <div class="cat__inner">
+            <img src="images/abaya-navy.webp" alt="Navy pleated abaya" loading="lazy">
+            <div class="cat__body">
+              <span class="cat__num">01</span>
+              <h3 class="cat__title">Abayas</h3>
+              <p>Flowing, pleated and button-front silhouettes.</p>
+            </div>
+          </div>
+        </a>
+        <a class="cat" href="#collection" data-go-filter="hijaabs">
+          <div class="cat__inner">
+            <img src="images/hijaab-chiffon.webp" alt="Chiffon hijaabs in several shades" loading="lazy">
+            <div class="cat__body">
+              <span class="cat__num">02</span>
+              <h3 class="cat__title">Hijaabs</h3>
+              <p>Airy chiffon in every shade.</p>
+            </div>
+          </div>
+        </a>
+        <a class="cat" href="#collection" data-go-filter="sleeves">
+          <div class="cat__inner">
+            <img src="images/sleeves-lace.webp" alt="Lace arm sleeves" loading="lazy">
+            <div class="cat__body">
+              <span class="cat__num">03</span>
+              <h3 class="cat__title">Sleeves</h3>
+              <p>Lace, pearl and essential arm sleeves.</p>
+            </div>
+          </div>
+        </a>
+        <a class="cat" href="#collection" data-go-filter="socks">
+          <div class="cat__inner">
+            <img src="images/socks-sama-box.webp" alt="Blush sheer socks in their box" loading="lazy">
+            <div class="cat__body">
+              <span class="cat__num">04</span>
+              <h3 class="cat__title">Socks</h3>
+              <p>Sheer, soft and made to be worn all day.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection -->
+  <section class="collection" id="collection" aria-labelledby="col-title">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2 class="display section-title" id="col-title">Pieces made to <em>be lived in.</em></h2>
+        </div>
+        <div class="tabs" role="group" aria-label="Filter by category">
+          <button class="tab" data-filter="all" aria-pressed="true">All</button>
+          <button class="tab" data-filter="abayas" aria-pressed="false">Abayas</button>
+          <button class="tab" data-filter="hijaabs" aria-pressed="false">Hijaabs</button>
+          <button class="tab" data-filter="sleeves" aria-pressed="false">Sleeves</button>
+          <button class="tab" data-filter="socks" aria-pressed="false">Socks</button>
+        </div>
+      </div>
+
+      <div class="gallery" data-stagger>
+        <article class="item" data-cat="abayas">
+          <button class="item__btn" aria-label="View Open Abaya, Olive Sage"><img src="images/abaya-olive.webp" alt="Olive open abaya with a sage shawl" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Abayas</span><h3>Open Abaya, Olive Sage</h3></div>
+        </article>
+        <article class="item" data-cat="sleeves">
+          <button class="item__btn" aria-label="View Pearl and Bloom Sleeves"><img src="images/sleeves-pearl.webp" alt="Sleeves with a floral pearl brooch in many shades" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Sleeves</span><h3>Pearl &amp; Bloom Sleeves</h3></div>
+        </article>
+        <article class="item" data-cat="abayas">
+          <button class="item__btn" aria-label="View Pleated Abaya, Midnight Navy"><img src="images/abaya-navy.webp" alt="Navy pleated abaya with a blush shawl" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Abayas</span><h3>Pleated Abaya, Midnight Navy</h3></div>
+        </article>
+        <article class="item" data-cat="sleeves">
+          <button class="item__btn" aria-label="View Lace Arm Sleeves"><img src="images/sleeves-lace.webp" alt="Lace arm sleeves in blue, white, black, red and grey" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Sleeves</span><h3>Lace Arm Sleeves</h3></div>
+        </article>
+        <article class="item" data-cat="hijaabs">
+          <button class="item__btn" aria-label="View Chiffon Hijaab, Seven Shades"><img src="images/hijaab-chiffon.webp" alt="Chiffon hijaabs in seven shades" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Hijaabs</span><h3>Chiffon Hijaab, Seven Shades</h3></div>
+        </article>
+        <article class="item" data-cat="hijaabs">
+          <button class="item__btn" aria-label="View Chiffon Hijaab, Summer Brights"><img src="images/hijaab-shades-bright.webp" alt="Chiffon hijaabs in blue, lavender, maroon, green, pink, brown and purple" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Hijaabs</span><h3>Chiffon Hijaab, Summer Brights</h3></div>
+        </article>
+        <article class="item" data-cat="hijaabs">
+          <button class="item__btn" aria-label="View Chiffon Hijaab, Soft Neutrals"><img src="images/hijaab-shades-neutral.webp" alt="Chiffon hijaabs in white, sage, lilac, blush, mauve, purple and navy" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Hijaabs</span><h3>Chiffon Hijaab, Soft Neutrals</h3></div>
+        </article>
+        <article class="item" data-cat="abayas">
+          <button class="item__btn" aria-label="View Button-Front Abaya, Mauve Clay"><img src="images/abaya-mauve.webp" alt="Mauve button-front abaya" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Abayas</span><h3>Button-Front Abaya, Mauve Clay</h3></div>
+        </article>
+        <article class="item" data-cat="socks">
+          <button class="item__btn" aria-label="View Sheer Ankle Socks, Blush"><img src="images/socks-sama-box.webp" alt="Blush sheer ankle socks in their box" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Socks</span><h3>Sheer Ankle Socks, Blush</h3></div>
+        </article>
+        <article class="item" data-cat="sleeves">
+          <button class="item__btn" aria-label="View Essential Sleeves, Colour Edit"><img src="images/sleeves-colours.webp" alt="Essential arm sleeves in a colour edit" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Sleeves</span><h3>Essential Sleeves, Colour Edit</h3></div>
+        </article>
+        <article class="item" data-cat="socks">
+          <button class="item__btn" aria-label="View Sheer Ankle Socks, Nude"><img src="images/socks-sama-pair.webp" alt="Nude sheer ankle socks" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Socks</span><h3>Sheer Ankle Socks, Nude</h3></div>
+        </article>
+        <article class="item" data-cat="socks">
+          <button class="item__btn" aria-label="View Miss Lee 70D Sheer Socks"><img src="images/socks-miss-lee.webp" alt="Miss Lee 70D sheer socks in nude" loading="lazy"></button>
+          <div class="item__meta"><span class="tag">Socks</span><h3>Miss Lee 70D Sheer Socks</h3></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story -->
+  <section class="story" id="about" aria-labelledby="story-title">
+    <div class="wrap story__grid">
+      <div class="seal-wrap" data-reveal>
+        <div class="seal">
+          <img src="images/logo.png" alt="Aura & Thread emblem">
+        </div>
+      </div>
+      <div data-reveal>
+        <p class="eyebrow eyebrow--light">Our story</p>
+        <h2 class="display section-title" id="story-title">Stitched with <em>intention.</em></h2>
+        <p class="story__text">Aura &amp; Thread is an online modest-fashion boutique built on one idea: the details are what make you feel like yourself. Every piece is chosen for soft drape, breathable comfort and colours that look rich in any light.</p>
+        <div class="pillars" data-stagger>
+          <div class="pillar"><span>01</span><div><h3>Drape</h3><p>Fluid fabrics that move with you.</p></div></div>
+          <div class="pillar"><span>02</span><div><h3>Comfort</h3><p>Breathable layers made for long days.</p></div></div>
+          <div class="pillar"><span>03</span><div><h3>Colour</h3><p>Earth tones and essentials that pair with everything.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to order -->
+  <section class="how" id="how" aria-labelledby="how-title">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <div>
+          <p class="eyebrow">How to order</p>
+          <h2 class="display section-title" id="how-title">Three simple <em>steps.</em></h2>
+        </div>
+      </div>
+      <ol class="steps" data-stagger>
+        <li class="step"><span class="step__num">01</span><h3>Browse</h3><p>Explore abayas, hijaabs, sleeves and socks in our collection.</p></li>
+        <li class="step"><span class="step__num">02</span><h3>Message us</h3><p>Share the piece, colour and size with us on WhatsApp or Instagram.</p></li>
+        <li class="step"><span class="step__num">03</span><h3>Delivered</h3><p>We confirm your order and send it straight to your door.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact__inner" data-reveal>
+      <p class="eyebrow">Contact</p>
+      <h2 class="display section-title" id="contact-title">Let's find your <em>piece.</em></h2>
+      <p class="muted contact__lead">Message us for sizes, colours or anything you'd like to know. We reply as quickly as we can.</p>
+
+      <div class="channels" data-stagger>
+        <a class="channel" data-config="whatsapp" href="#contact">
+          <small>WhatsApp</small>
+          <strong>0331-2483081</strong>
+          <span class="status">Chat now</span>
+        </a>
+        <a class="channel" data-config="instagram" href="#contact">
+          <small>Instagram</small>
+          <strong>@aura.and.thread.pk</strong>
+          <span class="status">Follow</span>
+        </a>
+        <a class="channel" data-config="phone" href="#contact">
+          <small>Phone</small>
+          <strong>0331-2483081</strong>
+          <span class="status">Call</span>
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="wrap footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo"><img src="images/logo.png" alt="Aura & Thread"></div>
+      <p class="display footer__tag">Modest elegance, threaded with intention.</p>
+    </div>
+    <nav class="footer__nav" aria-label="Footer">
+      <a href="#collection">Collection</a>
+      <a href="#about">Our Story</a>
+      <a href="#how">How to Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer__social">
+      <a class="pill" data-config="instagram" href="#contact">Instagram</a>
+    </div>
+  </div>
+  <div class="wordmark" aria-hidden="true">Aura &amp; Thread</div>
+  <div class="wrap footer__bottom">
+    <small>© <span id="year"></span> Aura &amp; Thread. All rights reserved.</small>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Product viewer" aria-hidden="true">
+  <button class="lb__btn lb__close" aria-label="Close">✕</button>
+  <button class="lb__btn lb__prev" aria-label="Previous">‹</button>
+  <figure class="lb__stage">
+    <img id="lbImg" alt="">
+    <figcaption class="lb__cap"><h4 id="lbTitle"></h4><span class="lb__count" id="lbCount"></span></figcaption>
+  </figure>
+  <button class="lb__btn lb__next" aria-label="Next">›</button>
+</div>
+
+
+<script src="js/vendor/gsap.min.js" defer></script>
+<script src="js/vendor/ScrollTrigger.min.js" defer></script>
+<script src="js/vendor/lenis.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
